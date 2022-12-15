@@ -1,0 +1,14 @@
+#top {
+    background-color: #70C1B3;
+    border-radius: 7px;
+    border: 1px solid #247BA0;
+    margin: 1px;
+}
+
+#side_bar {
+    height: 75px;
+    width: 300px;
+    background-color: #B2DBBF;
+    border: 1px solid #247BA0;
+    
+}

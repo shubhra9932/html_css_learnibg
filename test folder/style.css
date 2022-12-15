@@ -1,0 +1,12 @@
+div {
+  height: 100px;
+  width: 100px;
+  border: 0.2rem solid black;
+  position: relative;
+}
+div a {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+}

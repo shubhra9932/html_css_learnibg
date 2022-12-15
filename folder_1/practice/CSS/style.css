@@ -1,0 +1,51 @@
+/* chapter 060 */
+
+h1 {
+  color: violet;
+}
+
+h2 {
+  color: rgb(0, 143, 36);
+  /* background-color: burlywood; */
+}
+
+button {
+  color: teal;
+}
+
+p {
+  /* background-color: black; */
+  color: black;
+}
+
+#sec_p {
+  color: green;
+  background-color: white;
+}
+
+table {
+  border: 1px solid black;
+  padding: 10px;
+}
+
+td {
+  padding: 3px;
+  box-sizing: border-box;
+}
+
+/* td:nth-of-type(2n) {
+    border: 1px solid rgb(35, 165, 68);
+}
+
+
+th:nth-of-type(2n) {
+    border: 1px solid rgb(252, 154, 154);
+} */
+
+td {
+  border: 1px solid black;
+}
+
+th {
+  border: 1px solid black;
+}

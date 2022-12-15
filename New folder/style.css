@@ -1,0 +1,102 @@
+h1 {
+  text-transform: uppercase;
+}
+
+.table {
+  width: 500px;
+  border: 1px solid black;
+}
+
+/* number2 */
+
+.number2 thead tr:nth-child(1) {
+  color: red;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+.number2 thead tr:nth-child(2) {
+  font-style: italic;
+  font-weight: 700;
+  color: deepskyblue;
+}
+
+/* number3 */
+
+.number3 thead tr:nth-child(1) {
+  background-color: palegreen;
+}
+
+.number3 table {
+  border-collapse: collapse;
+}
+
+.number3 thead tr:nth-child(1) {
+  color: palevioletred;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+.number3 thead tr:nth-child(2) {
+  font-style: italic;
+  font-weight: 700;
+  color: deepskyblue;
+}
+
+.number3 td {
+  border: 1px solid black;
+  text-align: center;
+}
+
+.number3 tbody tr:nth-child(2n) {
+  background-color: burlywood;
+}
+
+/* number4 */
+
+/* .number4 table {
+  width: 500px;
+  border-collapse: collapse;
+}
+
+.number4 table td {
+  border: 1px solid black;
+}
+
+.makeborder {
+  border: 1px solid palegoldenrod;
+} */
+
+/* _______________________________  */
+.myTbl {
+  border-collapse: collapse;
+  width: 500px;
+}
+
+.myTbl td {
+  border: 1px solid black;
+  width: 50px;
+  height: 20px;
+}
+
+.makeBorder {
+  border: 3px solid green !important;
+}
+
+/* number5 */
+
+.number5 table {
+  width: 500px;
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+.number5 td {
+  border: 1px solid black;
+}
+
+.number5 thead td:first-child {
+  width: 250px;
+}

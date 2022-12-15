@@ -1,0 +1,9 @@
+/* ***************** I M P O R T A N T ***************** */
+.float span {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+}
+
+/* ***************** I M P O R T A N T ***************** */

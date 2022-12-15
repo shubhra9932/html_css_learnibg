@@ -1,0 +1,93 @@
+div {
+    background-color: yellow;
+    border-width: 5px;
+    border-style: solid;
+    box-sizing: border-box;
+    height: 200px;
+    width: 300px;
+}
+
+#one {
+    background-color: #4BA3C3;
+    border-radius: 7px;
+    border-style: solid;
+    /* box-sizing: border-box; */
+    border-color: #BA324F;
+}
+
+#two {
+    background-color: #CCE6F4;
+    /* border: 10px, solid, #175676; */
+    /* box-sizing: border-box; */
+    border-width: 3px;
+    border-style: dashed;
+    border-color: #175676;
+    border-radius: 10px;
+    border-left-style: solid;
+    border-left-width: 15px;
+    border-bottom-right-radius: 25%;
+}
+
+#three {
+    background-color: #175676;
+    border-style: double;
+    border-width: 8px;
+    border-bottom-right-radius: 15px;
+    border-top-left-radius: 15px;
+    border-color: #ba324f;
+
+
+}
+
+#three p {
+    color: #cce6f4;
+}
+
+
+h2 {
+    width: 150px;
+    background-color: #d62839;
+    text-align: right;
+    border-style: solid;
+    box-sizing: border-box;
+    border-width: 2px;
+    color: #cce6f4;
+    border-color: #4ba3c3;
+    border-radius: 6px;
+    border-left-width: 20px;
+    border-left-color: #175676;
+
+}
+
+
+/* BUTTON PADDING  */
+
+#padding_1 {
+    padding: 20px;
+}
+
+#padding_2 {
+    padding: 10px 20px;
+}
+
+#padding_3 {
+    padding: 15px 13px 12px;
+}
+
+#padding_4 {
+    padding: 10px 15px 0 12px;
+}
+
+section>p {
+    color: #ba324f;
+    margin: 20px;
+}
+
+footer a {
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: #BA324F;
+    background-color: #4ba3c3;
+}

@@ -1,0 +1,15 @@
+div {
+    background-color: aquamarine;
+    height: 150px;
+    width: 150px;
+    border: 1px solid black;
+    display: inline-block;
+    margin: 10px;
+    border-top-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+body {
+    /* border: 0px; */
+    margin: 0px;
+}

@@ -1,0 +1,149 @@
+/* * {
+    color: rgb(60, 255, 0);
+    background-color: rgb(0, 0, 0);
+} */
+
+* {
+    color: black;
+}
+
+h1,
+h2 {
+    color: #4B1D3F;
+}
+
+body {
+    color: #d4f4dd;
+}
+
+/* label {
+    color: #0E7C7B;
+} */
+
+/* p {
+    color: #0E7C7B;
+} */
+
+#reset {
+    background-color: #D62246;
+    color: #D4F4DD;
+}
+
+/* .tag {
+    color: #D4F4DD;
+    background-color: #D62246;
+} */
+
+/* .post_desc {
+    color: #17BEBB;
+} */
+
+/* li a {
+    color: #0067c7;
+}
+
+span a {
+    color: #17BEBB;
+} */
+
+/* .post a {
+    color: #ff3737;
+}
+
+footer a {
+    color: pink;
+}
+
+.post span {
+    color: rgb(89, 255, 125);
+}
+
+footer>p {
+    color: violet;
+}
+
+h2 span {
+    color: orange;
+} */
+
+.post>span {
+    color: blue;
+}
+
+.tag {
+    color: #D4F4DD;
+    background-color: #D62246;
+}
+
+li a {
+    color: rgb(170, 125, 0);
+}
+
+span a {
+    color: #db0000;
+}
+
+/* footer>p {
+    color: aqua;
+} */
+
+.post h2 {
+    color: green;
+}
+
+/* html attribute css */
+input[type="password"] {
+    color: magenta;
+}
+
+/* pseudo elements css */
+.post button:hover {
+    color: #D62246;
+    background-color: moccasin;
+}
+
+.post button:active {
+    background-color: green;
+}
+
+.post a {
+    text-decoration: none;
+}
+
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* .post:nth-of-type(2n) {
+    background-color: rgb(255, 230, 233);
+} */
+
+#go_to_top a:active {
+    color: red;
+    text-decoration: underline;
+}
+
+#go_to_top a {
+    text-decoration: none;
+}
+
+/* pseudo elements */
+::selection {
+    color: blue;
+    background-color: yellow;
+}
+
+.post h2::first-letter {
+    font-size: 30px;
+    color: red;
+    font-style: italic;
+}
+
+
+
+/* inherit in CSS */
+
+button {
+    color: inherit;
+}

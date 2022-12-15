@@ -1,0 +1,36 @@
+#ems {
+    font-size: 30px;
+}
+
+#ems button {
+    padding: 0em 4em;
+    border-radius: 2em;
+    font-size: .75em;
+}
+
+#ems li {
+    font-size: 2em;
+}
+
+
+#rems {
+    font-size: 30px;
+}
+
+#rems button {
+    padding: 2rem;
+}
+
+#rems h2 {
+    font-size: 2rem;
+    font-style: italic;
+}
+
+#rems button {
+    font-size: 1rem;
+    border-radius: 1em;
+}
+
+#rems li {
+    font-size: 2rem;
+}

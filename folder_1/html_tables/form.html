@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Demo</title>
+</head>
+
+<body>
+    <h1>form practice</h1>
+    <h3>first type</h3>
+    <form action="/target">
+        <p>
+            <label for="usernamename">Username</label>
+            <input id="usernamename" type="text" placeholder="username" name="username"><br>
+        </p>
+        <p>
+            <label for="password">password</label>
+            <input id="password" type="password" placeholder="password" name="password"><br>
+        </p>
+        <!-- this is another type of labelling -->
+        <p>
+            <label>
+                Pick a color
+                <input type="color" name="color" id="" name="color">
+            </label>
+        </p>
+        <button type="submit">submit</button>
+        <button type="button">false button</button>
+    </form>
+    <!-- hijack google and youtube search -->
+    <h3>google search</h3>
+    <form action="https://www.google.co.in/search">
+        <p><input type="text" name="q" id="" placeholder="google"></p>
+        <button type="submit">search google</button>
+    </form>
+    <h3>youtube search</h3>
+    <form action="https://www.youtube.com/results">
+        <p><input type="text" name="search_query" id="" placeholder="youtube"></p>
+        <button type="submit">search youtube</button>
+
+    </form>
+
+</body>
+
+</html>

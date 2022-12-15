@@ -1,0 +1,41 @@
+body {
+    margin: 0px;
+}
+
+div {
+    height: 100px;
+    width: 100px;
+    background-color: red;
+    margin: 0px;
+}
+
+p {
+    margin: 0;
+}
+
+.big {
+    height: 300px;
+    width: 300px;
+    background-color: #FFBE0B;
+}
+
+.red {
+    background-color: #FF006E;
+    position: absolute;
+    left: 200px;
+    top: 0px;
+
+}
+
+.green {
+    background-color: #8338EC;
+    position: absolute;
+    top: 0;
+    left: 100px;
+}
+
+.yellow {
+    background-color: #3A86FF;
+    position: absolute;
+    top: 0;
+}
